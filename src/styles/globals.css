@@ -1,0 +1,63 @@
+:root {
+    --pink: #F1ECF6;
+    --violet: #73467B;
+    --black: #000000;
+    --gray: #767778;
+    --white: #FFFFFF;
+    --red: #bc0909;
+    --green: #069539;
+
+    --font-size-s: 12px;
+    --font-size: 14px;
+    --line-height: 20px;
+    --font-size-l: 16px;
+    --line-height-l: 24px;
+
+    --border: 1px solid var(--violet);
+
+    --radius: 8px;
+
+    --input-height: 54px;
+    --btn-height: 42px;
+
+    --gap: 10px;
+    --padding-xl: 40px;
+    --padding-l: 21px;
+    --padding-m: 14px;
+    --padding-s: 9px;
+    --padding-xs: 7px;
+}
+
+html, body {
+    height: 100%;
+}
+
+main {
+    padding: var(--padding-xl);
+}
+
+body, button, textarea, input {
+    font-family: Roboto, serif;
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+}
+
+.error {
+    margin-left: var(--padding-m);
+    color: var(--red);
+}
+
+.success {
+    margin-left: var(--padding-m);
+    color: var(--green);
+}
+
+.gray-text {
+    color: var(--gray)
+}
+
+.link {
+    color: var(--violet);
+    text-decoration: underline;
+}

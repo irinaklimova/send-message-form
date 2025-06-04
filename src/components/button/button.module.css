@@ -1,0 +1,13 @@
+@import url('/src/styles/globals.css');
+
+.button {
+    padding: var(--padding-s) var(--padding-l);
+    color: var(--white);
+    font-weight: 500;
+    font-size: var(--font-size-l);
+    line-height: var(--line-height-l);
+    cursor: pointer;
+    background-color: var(--violet);
+    border: var(--border);
+    border-radius: var(--radius);
+}

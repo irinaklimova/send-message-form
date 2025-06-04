@@ -1,0 +1,13 @@
+.inputGroup {
+    display: flex;
+}
+
+.inputGroup > div:first-child > input {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.inputGroup > div:nth-child(2) > input {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}

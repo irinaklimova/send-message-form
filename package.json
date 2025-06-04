@@ -1,0 +1,23 @@
+{
+  "name": "send-message-form",
+  "version": "1.0.0",
+  "description": "Tech assignment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@astrojs/react": "^4.3.0",
+    "@astrojs/vercel": "^8.1.4",
+    "@sendgrid/mail": "^8.1.5",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.5",
+    "astro": "^5.8.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}

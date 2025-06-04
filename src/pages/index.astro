@@ -1,0 +1,12 @@
+---
+// Welcome to Astro! Everything between these triple-dash code fences
+// is your "component frontmatter". It never runs in the browser.
+
+import Layout from '../layouts/layout.astro';
+import UserForm from '../components/user-form/user-form';
+---
+<!-- Below is your "component template." It's just HTML, but with
+    some magic sprinkled in to help you build great templates. -->
+<Layout>
+    <UserForm client:load/>
+</Layout>

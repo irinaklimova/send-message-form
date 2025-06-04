@@ -1,0 +1,62 @@
+@import url('/src/styles/globals.css');
+
+.inputWrapper {
+    position: relative;
+    flex: 1;
+}
+
+.input {
+    padding: var(--padding-m) var(--padding-m) var(--padding-xs);
+    height: var(--input-height);
+    width: 100%;
+    border: 1px solid var(--white);
+    border-radius: var(--radius);
+    resize: none;
+    box-sizing: border-box;
+}
+
+textarea.input {
+    height: 140px;
+}
+
+.input:focus {
+    border: var(--border);
+    outline: none;
+}
+
+.inputLabel {
+    margin-bottom: var(--gap);
+    display: inline-block;
+}
+
+.input:focus::placeholder {
+    color: transparent;
+}
+
+.input:focus + .inputHiddenLabel,
+.input:not(:focus):not(:placeholder-shown) + .inputHiddenLabel {
+    top: 4px;
+    left: var(--padding-m);
+    font-size: var(--font-size-s);
+}
+
+.inputHiddenLabel {
+    position: absolute;
+    top: 18px;
+    left: var(--padding-m);
+    pointer-events: none;
+    color: var(--gray);
+    transition: font-size 200ms cubic-bezier(0, 0, 0.2, 1), top 200ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.hidden {
+    display: none;
+}
+
+.wrapperWithLabel {
+    flex-direction: column;
+}
+
+.inputWithLabel {
+    flex: auto;
+}

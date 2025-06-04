@@ -1,0 +1,14 @@
+@import url('/src/styles/globals.css');
+
+.form {
+    margin: auto;
+    padding: var(--padding-xl);
+    max-width: 500px;
+    min-width: 350px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--pink);
+    border-radius: var(--radius);
+}
