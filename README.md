@@ -13,7 +13,7 @@
 
 ### Set the SendGrid API key
 
-You can set [your own](https://github.com/sendgrid/sendgrid-nodejs/tree/main/packages/mail#prerequisites) SENDGRID_API_KEY via `.env` file
+You can set [your own](https://github.com/sendgrid/sendgrid-nodejs/tree/main/packages/mail#prerequisites) SENDGRID_API_KEY via `.env` file. For that you can copy and rename `.env.template`.
 
 ### Run
 ```npm run dev```
